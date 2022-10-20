@@ -47,3 +47,38 @@ export const categories = [
     },
 ]
 
+//Array to hold Popular Products
+export const popularProducts = [
+  {
+    id: 1,
+    img: "https://assets.stickpng.com/categories/4793.png",
+  },
+  {
+    id: 2,
+    img: "https://assets.stickpng.com/categories/5118.png",
+  },
+  {
+    id: 3,
+    img: "https://assets.stickpng.com/categories/1595.png",    
+  },
+  {
+    id: 4,
+    img: "https://assets.stickpng.com/categories/1484.png",
+  },
+  {
+    id: 5,
+    img: "https://assets.stickpng.com/categories/156.png",    
+  },
+  {
+    id: 6,
+    img: "https://assets.stickpng.com/categories/1533.png",
+  },
+  {
+    id: 7,
+    img: "https://assets.stickpng.com/categories/154.png",    
+  },
+  {
+    id: 8,
+    img: "https://assets.stickpng.com/categories/5070.png",
+  },
+];
