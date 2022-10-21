@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { mobile } from "../responsive";
 
 const Container = styled.div`
     width: 100%;
@@ -12,6 +13,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
     width: 30%;
     padding: 20%;
+    ${mobile({ width: '80%', padding: '1px', height: '80vh' })}
 `;
 const Title = styled.h1`
     font-size: 24px;
@@ -20,12 +22,14 @@ const Title = styled.h1`
 const Form = styled.form`
     display: flex;
     flex-wrap: wrap;
+    ${mobile({ flexDirection: 'column' })}
 `;
 const Input = styled.input`
     flex: 1;
     min-width: 40%;
     margin: 20px 10px 0px 0px;
     padding: 10px;
+    ${mobile({ margin: '5px 0px'})}
 `;
 const Agreement = styled.span`
     font-size: 12px;

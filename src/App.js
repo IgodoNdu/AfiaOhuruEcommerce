@@ -1,6 +1,7 @@
-//import Home from "./pages/Home";
+import Home from "./pages/Home";
 //import Product from "./pages/Product";
-import Cart from "./pages/Cart";
+//import ProductList from "./pages/ProductList";
+//import Cart from "./pages/Cart";
 //import Login from "./pages/Login";
 //import Register from "./pages/Register";
 
@@ -8,7 +9,7 @@ import Cart from "./pages/Cart";
 function App() {
   return (
     <div>
-      <Cart />
+      <Home />
     </div>
   );
 }
