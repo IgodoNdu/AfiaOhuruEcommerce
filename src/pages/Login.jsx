@@ -3,7 +3,7 @@ import styled from "styled-components"
 const Container = styled.div`
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url('https://burst.shopifycdn.com/photos/slow-fashion-coat.jpg?width=373&format=pjpg&exif=1&iptc=1') center;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url('https://burst.shopifycdn.com/photos/high-fashion-model-in-red.jpg?width=600&format=pjpg&exif=1&iptc=1') center;
     background-size: cover;
     display: flex;
     align-items: center;
